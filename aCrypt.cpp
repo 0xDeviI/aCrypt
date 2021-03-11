@@ -3,8 +3,21 @@
 #include <stdio.h>
 
 using namespace std;
+void logo(){
+    cout << R"(
+
+         ___                 _   
+  __ _  / __\ __ _   _ _ __ | |_ 
+ / _` |/ / | '__| | | | '_ \| __|
+| (_| / /__| |  | |_| | |_) | |_ 
+ \__,_\____/_|   \__, | .__/ \__|
+                 |___/|_|        
+    Coded By : Armin Asefi (0xDevOps)
+)";
+}
 int main()
 {
+    logo();
     string path = "";
     string opath = "";
     string mode;
